@@ -1,0 +1,28 @@
+[2025-07-18 02:01:55,340] 1820 asyncio - ERROR - Exception in callback _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at C:\Users\gleme\anaconda3\Lib\site-packages\tornado\web.py:2438
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at C:\Users\gleme\anaconda3\Lib\site-packages\tornado\web.py:2438>
+Traceback (most recent call last):
+  File "C:\Users\gleme\anaconda3\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\gleme\anaconda3\Lib\site-packages\tornado\web.py", line 2438, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+                                    ^^^^^^^^^^
+  File "C:\Users\gleme\anaconda3\Lib\site-packages\tornado\web.py", line 1746, in _execute
+    async def _execute(
+asyncio.exceptions.CancelledError
+[2025-07-18 23:12:34,017] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:12:35,127] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:17:28,934] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:17:30,977] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:18:55,994] 59 root - ERROR - Error during MCQ generation: [Errno 2] No such file or directory: 'CHAPTER1FINAL new.pdf'
+[2025-07-18 23:28:30,851] 60 root - ERROR - Error during MCQ generation: 'UploadedFile' object has no attribute 'endswith'
+[2025-07-18 23:33:45,446] 60 root - ERROR - Error during MCQ generation: [Errno 2] No such file or directory: 'CHAPTER1FINAL new.pdf'
+[2025-07-18 23:42:29,128] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:42:30,455] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:47:46,777] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:47:49,610] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:49:10,614] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:49:12,194] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:52:54,194] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:52:55,248] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:56:31,530] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 23:56:32,895] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
